@@ -1,3 +1,55 @@
 {
-  "plugins": ["summary", "toggle-chapters", "theme-comscore"]
+    "plugins": [
+        "back-to-top-button",
+        "chapter-fold",
+        "code",
+        "splitter",
+        "-lunr",
+        "-search",
+        "search-pro",
+        "insert-logo",
+        "custom-favicon",
+        "pageview-count",
+        "tbfed-pagefooter",
+        "popup",
+        "-sharing",
+        "sharing-plus",
+	      "theme-comscore"
+    ],
+    "pluginsConfig": {
+        "favicon": "icon/icon.ico",
+        "insert-logo": {
+          "url": "https://github.com/lghhh/Xochie/tree/main/icon/icon.png",
+          "style": "background: none; max-height: 80px"
+        },
+        "tbfed-pagefooter": {
+            "copyright": "Copyright lugh60@gmail.com 2022",
+            "modify_label": "该文章修订时间：",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        },
+        "sharing": {
+            "douban": true,
+            "facebook": true,
+            "google": true,
+            "pocket": true,
+            "qq": true,
+            "qzone": true,
+            "twitter": true,
+            "weibo": true,
+            "all": [
+                "douban",
+                "facebook",
+                "google",
+                "instapaper",
+                "linkedin",
+                "twitter",
+                "weibo",
+                "messenger",
+                "qq",
+                "qzone",
+                "viber",
+                "whatsapp"
+            ]
+        }
+    }
 }
