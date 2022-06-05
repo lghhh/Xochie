@@ -1,0 +1,821 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Golang · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-toggle-chapters/toggle.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-theme-comscore/test.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../../11 算法/" />
+    
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../../">
+            
+                <a href="../../../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    01 计算机科学
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../../01 操作系统/">
+            
+                <a href="../../01 操作系统/">
+            
+                    
+                    01 操作系统
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../../02 计算机图形学/">
+            
+                <a href="../../02 计算机图形学/">
+            
+                    
+                    02 计算机图形学
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../../03 计算机网络/">
+            
+                <a href="../../03 计算机网络/">
+            
+                    
+                    03 计算机网络
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../../04 计算机系统组织/">
+            
+                <a href="../../04 计算机系统组织/">
+            
+                    
+                    04 计算机系统组织
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="../../05 计算理论/">
+            
+                <a href="../../05 计算理论/">
+            
+                    
+                    05 计算理论
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="../../06 密码与安全/">
+            
+                <a href="../../06 密码与安全/">
+            
+                    
+                    06 密码与安全
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="../../07 人工智能/">
+            
+                <a href="../../07 人工智能/">
+            
+                    
+                    07 人工智能
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="../../08 人机交互/">
+            
+                <a href="../../08 人机交互/">
+            
+                    
+                    08 人机交互
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" data-path="../../09 软件工程/">
+            
+                <a href="../../09 软件工程/">
+            
+                    
+                    09 软件工程
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    10 软件开发
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.12.1" >
+            
+                <span>
+            
+                    
+                    Golang
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="1.12.1.1" data-path="Golang.html">
+            
+                <a href="Golang.html">
+            
+                    
+                    Golang
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13" data-path="../../11 算法/">
+            
+                <a href="../../11 算法/">
+            
+                    
+                    11 算法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14" data-path="../../12 信息学/">
+            
+                <a href="../../12 信息学/">
+            
+                    
+                    12 信息学
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.15" data-path="../../13 应用计算/">
+            
+                <a href="../../13 应用计算/">
+            
+                    
+                    13 应用计算
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.16" data-path="../../14 硬件/">
+            
+                <a href="../../14 硬件/">
+            
+                    
+                    14 硬件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.17" data-path="../../../02 地球科学/">
+            
+                <a href="../../../02 地球科学/">
+            
+                    
+                    02 地球科学
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.18" data-path="../../../03 工程学/">
+            
+                <a href="../../../03 工程学/">
+            
+                    
+                    03 工程学
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.19" data-path="../../../04 化学/">
+            
+                <a href="../../../04 化学/">
+            
+                    
+                    04 化学
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.20" data-path="../../../05 建筑学/">
+            
+                <a href="../../../05 建筑学/">
+            
+                    
+                    05 建筑学
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.21" data-path="../../../06 健康科学/">
+            
+                <a href="../../../06 健康科学/">
+            
+                    
+                    06 健康科学
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.22" data-path="../../../07 经济学/">
+            
+                <a href="../../../07 经济学/">
+            
+                    
+                    07 经济学
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.23" data-path="../../../08 考古学/">
+            
+                <a href="../../../08 考古学/">
+            
+                    
+                    08 考古学
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.24" data-path="../../../09 历史/">
+            
+                <a href="../../../09 历史/">
+            
+                    
+                    09 历史
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.25" data-path="../../../10 人类学/">
+            
+                <a href="../../../10 人类学/">
+            
+                    
+                    10 人类学
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.26" data-path="../../../11 人文地理学/">
+            
+                <a href="../../../11 人文地理学/">
+            
+                    
+                    11 人文地理学
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.27" data-path="../../../12 社会学/">
+            
+                <a href="../../../12 社会学/">
+            
+                    
+                    12 社会学
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.28" data-path="../../../13 生物学/">
+            
+                <a href="../../../13 生物学/">
+            
+                    
+                    13 生物学
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.29" data-path="../../../14 数学/">
+            
+                <a href="../../../14 数学/">
+            
+                    
+                    14 数学
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.30" data-path="../../../15 太空科学/">
+            
+                <a href="../../../15 太空科学/">
+            
+                    
+                    15 太空科学
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.31" data-path="../../../16 统计学/">
+            
+                <a href="../../../16 统计学/">
+            
+                    
+                    16 统计学
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.32" data-path="../../../17 文学/">
+            
+                <a href="../../../17 文学/">
+            
+                    
+                    17 文学
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.33" data-path="../../../18 物理学/">
+            
+                <a href="../../../18 物理学/">
+            
+                    
+                    18 物理学
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.34" data-path="../../../19 系统科学/">
+            
+                <a href="../../../19 系统科学/">
+            
+                    
+                    19 系统科学
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.35" data-path="../../../20 心理学/">
+            
+                <a href="../../../20 心理学/">
+            
+                    
+                    20 心理学
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.36" data-path="../../../21 医学/">
+            
+                <a href="../../../21 医学/">
+            
+                    
+                    21 医学
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.37" data-path="../../../22 艺术/">
+            
+                <a href="../../../22 艺术/">
+            
+                    
+                    22 艺术
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.38" data-path="../../../23 语言/">
+            
+                <a href="../../../23 语言/">
+            
+                    
+                    23 语言
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.39" data-path="../../../24 哲学/">
+            
+                <a href="../../../24 哲学/">
+            
+                    
+                    24 哲学
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.40" data-path="../../../25 政治学/">
+            
+                <a href="../../../25 政治学/">
+            
+                    
+                    25 政治学
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../../.." >Golang</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="golang">Golang</h1>
+<h2 id="&#x300A;go&#x5165;&#x95E8;&#x6307;&#x5357;&#x300B;">&#x300A;Go&#x5165;&#x95E8;&#x6307;&#x5357;&#x300B;</h2>
+<p><a href="https://learnku.com/docs/the-way-to-go/book-intro/3560" target="_blank">https://learnku.com/docs/the-way-to-go/book-intro/3560</a></p>
+<p>&#x8BE5;&#x4E66;&#x662F;&#x300A;The Way to Go&#x300B;&#x7684;&#x4E2D;&#x6587;&#x8BD1;&#x672C;&#xFF0C;&#x672C;&#x4E66;&#x4E13;&#x4E3A; Golang &#x521D;&#x5B66;&#x8005;&#x91CF;&#x8EAB;&#x5B9A;&#x5236;&#x3002;</p>
+<h2 id="go&#x8BED;&#x8A00;&#x7F16;&#x7801;&#x89C4;&#x8303;&#xFF1A;">Go&#x8BED;&#x8A00;&#x7F16;&#x7801;&#x89C4;&#x8303;&#xFF1A;</h2>
+<ol>
+<li><a href="https://github.com/xxjwxc/uber_go_guide_cn" target="_blank">https://github.com/xxjwxc/uber_go_guide_cn</a>, Uber &#x662F;&#x4E00;&#x5BB6;&#x7F8E;&#x56FD;&#x7845;&#x8C37;&#x7684;&#x79D1;&#x6280;&#x516C;&#x53F8;&#xFF0C;&#x4E5F;&#x662F; Go &#x8BED;&#x8A00;&#x7684;&#x65E9;&#x671F; adopter&#x3002;&#x5176;&#x5F00;&#x6E90;&#x4E86;&#x5F88;&#x591A; golang &#x9879;&#x76EE;&#xFF0C;&#x8BF8;&#x5982;&#x88AB; Gopher &#x5708;&#x719F;&#x77E5;&#x7684; zap&#x3001;jaeger &#x7B49;&#x3002;2018 &#x5E74;&#x5E74;&#x672B; Uber &#x5C06;&#x5185;&#x90E8;&#x7684; Go &#x98CE;&#x683C;&#x89C4;&#x8303; &#x5F00;&#x6E90;&#x5230; GitHub&#xFF0C;&#x7ECF;&#x8FC7;&#x4E00;&#x5E74;&#x7684;&#x79EF;&#x7D2F;&#x548C;&#x66F4;&#x65B0;&#xFF0C;&#x8BE5;&#x89C4;&#x8303;&#x5DF2;&#x7ECF;&#x521D;&#x5177;&#x89C4;&#x6A21;&#xFF0C;&#x5E76;&#x53D7;&#x5230;&#x5E7F;&#x5927; Gopher &#x7684;&#x5173;&#x6CE8;&#x3002;&#x672C;&#x6587;&#x662F;&#x8BE5;&#x89C4;&#x8303;&#x7684;&#x4E2D;&#x6587;&#x7248;&#x672C;&#x3002;&#x672C;&#x7248;&#x672C;&#x4F1A;&#x6839;&#x636E;&#x539F;&#x7248;&#x5B9E;&#x65F6;&#x66F4;&#x65B0;&#x3002;</li>
+<li><a href="http://www.gonglin91.com/2018/03/30/go-code-review-comments/" target="_blank">http://www.gonglin91.com/2018/03/30/go-code-review-comments/</a>, Go Code Review Comments(Go&#x5B98;&#x65B9;&#x7F16;&#x7A0B;&#x89C4;&#x8303;&#x7FFB;&#x8BD1;)</li>
+<li><a href="https://learnku.com/docs/effective-go/2020/introduction/6236" target="_blank">https://learnku.com/docs/effective-go/2020/introduction/6236</a>, golang &#x7F16;&#x7A0B;&#x89C4;&#x8303; - Effective Go &#x4E2D;&#x6587;</li>
+<li><a href="https://draveness.me/golang-101/" target="_blank">https://draveness.me/golang-101/</a>, &#x5982;&#x4F55;&#x5199;&#x51FA;&#x4F18;&#x96C5;&#x7684; Go &#x8BED;&#x8A00;&#x4EE3;&#x7801;</li>
+<li><a href="https://shockerli.net/post/go-code-guide-style/&#xFF0C;Go" target="_blank">https://shockerli.net/post/go-code-guide-style/&#xFF0C;Go</a> &#x8BED;&#x8A00;&#x89C4;&#x8303; - &#x7F16;&#x7801;&#x98CE;&#x683C;&#xFF08;2020&#xFF09;</li>
+</ol>
+<h2 id="&#x8BBE;&#x8BA1;&#x6A21;&#x5F0F;">&#x8BBE;&#x8BA1;&#x6A21;&#x5F0F;</h2>
+<p>golang-design-pattern: <a href="https://github.com/senghoo/golang-design-pattern" target="_blank">https://github.com/senghoo/golang-design-pattern</a></p>
+<h2 id="go&#x8BED;&#x8A00;&#x9879;&#x76EE;&#x5B9E;&#x8DF5;">Go&#x8BED;&#x8A00;&#x9879;&#x76EE;&#x5B9E;&#x8DF5;</h2>
+<p>go-ethereum: <a href="https://github.com/ethereum/go-ethereum" target="_blank">https://github.com/ethereum/go-ethereum</a>, &#x4EE5;&#x592A;&#x574A;</p>
+<p>fabric: <a href="https://github.com/hyperledger/fabric" target="_blank">https://github.com/hyperledger/fabric</a>, hyperledger fabric</p>
+<p>gocron: <a href="https://github.com/go-co-op/gocron" target="_blank">https://github.com/go-co-op/gocron</a>, &#x4EFB;&#x52A1;&#x8C03;&#x5EA6;&#x670D;&#x52A1;</p>
+<p>ants: <a href="https://github.com/panjf2000/ants" target="_blank">https://github.com/panjf2000/ants</a>, goroutine pool</p>
+<p>groupcache: <a href="https://github.com/golang/groupcache" target="_blank">https://github.com/golang/groupcache</a>, groupcache is a caching and cache-filling library, intended as a replacement for memcached in many cases.</p>
+<p>rosedb: <a href="https://github.com/flower-corp/rosedb" target="_blank">https://github.com/flower-corp/rosedb</a></p>
+<h2 id="go&#x8BED;&#x8A00;&#x9879;&#x76EE;&#x7ECF;&#x9A8C;">Go&#x8BED;&#x8A00;&#x9879;&#x76EE;&#x7ECF;&#x9A8C;</h2>
+<p>&#x5E76;&#x53D1;&#xFF1A;</p>
+<h2 id="go&#x8BED;&#x8A00;&#x6E90;&#x7801;">Go&#x8BED;&#x8A00;&#x6E90;&#x7801;</h2>
+<p>Go&#x8BED;&#x8A00;&#x8BBE;&#x8BA1;&#x4E0E;&#x5B9E;&#x73B0;&#xFF1A;<a href="https://draveness.me/golang/" target="_blank">https://draveness.me/golang/</a></p>
+<h2 id="go&#x8BED;&#x8A00;&#x9762;&#x8BD5;">Go&#x8BED;&#x8A00;&#x9762;&#x8BD5;</h2>
+<p><a href="https://github.com/lifei6671/interview-go" target="_blank">https://github.com/lifei6671/interview-go</a></p>
+<p><a href="https://github.com/iswbm/golang-interview" target="_blank">https://github.com/iswbm/golang-interview</a></p>
+<p><a href="https://github.com/luckygopher/go-interview" target="_blank">https://github.com/luckygopher/go-interview</a></p>
+<h2 id="go&#x8BED;&#x8A00;&#x8D44;&#x6E90;&#x5927;&#x5168;">Go&#x8BED;&#x8A00;&#x8D44;&#x6E90;&#x5927;&#x5168;</h2>
+<p><a href="https://github.com/LearnGolang/LearnGolang" target="_blank">https://github.com/LearnGolang/LearnGolang</a></p>
+<h2 id="&#x5F00;&#x53D1;&#x5DE5;&#x5177;&#x63A2;&#x7D22;&#xFF08;goland&#xFF09;&#xFF1A;">&#x5F00;&#x53D1;&#x5DE5;&#x5177;&#x63A2;&#x7D22;&#xFF08;Goland&#xFF09;&#xFF1A;</h2>
+<h2 id="&#x5F00;&#x53D1;&#x5DE5;&#x5177;&#x63A2;&#x7D22;&#xFF08;vscode&#xFF09;&#xFF1A;">&#x5F00;&#x53D1;&#x5DE5;&#x5177;&#x63A2;&#x7D22;&#xFF08;vscode&#xFF09;&#xFF1A;</h2>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                
+                <a href="../../11 算法/" class="navigation navigation-next navigation-unique" aria-label="Next page: 11 算法">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Golang","level":"1.12.1.1","depth":3,"next":{"title":"11 算法","level":"1.13","depth":1,"path":"01 计算机科学/11 算法/README.md","ref":"01 计算机科学/11 算法/README.md","articles":[]},"previous":{"title":"Golang","level":"1.12.1","depth":2,"ref":"","articles":[{"title":"Golang","level":"1.12.1.1","depth":3,"path":"01 计算机科学/10 软件开发/Golang/Golang.md","ref":"01 计算机科学/10 软件开发/Golang/Golang.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["summary","toggle-chapters","theme-comscore","livereload"],"pluginsConfig":{"livereload":{},"summary":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"theme-comscore":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"toggle-chapters":{}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"01 计算机科学/10 软件开发/Golang/Golang.md","mtime":"2022-06-05T09:55:44.810Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2022-06-05T09:49:50.944Z"},"basePath":"../../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../../gitbook/gitbook.js"></script>
+    <script src="../../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-toggle-chapters/toggle.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-theme-comscore/test.js"></script>
+        
+    
+
+    </body>
+</html>
+
