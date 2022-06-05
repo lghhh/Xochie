@@ -19,7 +19,7 @@
     "pluginsConfig": {
         "favicon": "icon/icon.ico",
         "insert-logo": {
-          "url": "https://github.com/lghhh/Xochie/tree/main/icon/icon.png",
+          "url": "https://github.com/lghhh/Xochie/raw/main/icon/icon.png",
           "style": "background: none; max-height: 80px"
         },
         "tbfed-pagefooter": {
