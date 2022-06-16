@@ -37,6 +37,8 @@ rosedb: https://github.com/flower-corp/rosedb
 ## Go语言源码
 Go语言设计与实现：https://draveness.me/golang/
 
+Golang 数据结构源码解析（map）：https://zhuanlan.zhihu.com/p/273666774
+
 
 ## Go语言面试
 https://github.com/lifei6671/interview-go
